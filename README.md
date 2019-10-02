@@ -28,7 +28,7 @@ Ensure that the POM contains:
 		<dependency>
 			<groupId>io.micrometer.prometheus</groupId>
 			<artifactId>prometheus-rsocket-spring</artifactId>
-			<version>0.8.0</version>
+			<version>0.9.0</version>
 		</dependency>
 		...
 	</dependencies>
@@ -42,15 +42,7 @@ Ensure that the POM contains:
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
 			<url>https://repo.spring.io/snapshot</url>
-		</repository>
-		<repository>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>spring-milestones</id>
-			<name>Spring Milestones</name>
-			<url>https://repo.spring.io/milestone</url>
-		</repository>
+		</repository>		
 	</repositories>
 ```
 
